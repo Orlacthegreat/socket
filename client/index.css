@@ -1,0 +1,29 @@
+.gradient-custom-2 {
+	/* fallback for old browsers */
+	background: #000000;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(
+		to right,
+		#0d9025,
+		#087f88,
+		#ff0000,
+		#b44593
+	);
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #0a641c, #040404, #e6e31e, #10b981);
+}
+
+@media (min-width: 768px) {
+	.gradient-form {
+		height: 100vh !important;
+	}
+}
+
+@media (min-width: 769px) {
+	.gradient-custom-2 {
+		border-top-right-radius: 0.3rem;
+		border-bottom-right-radius: 0.3rem;
+	}
+}
